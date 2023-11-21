@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Check the Compatibility for making an engine replacement">
+    <meta name="keywords" content="engine replacement">
+    <meta name="Author" content="Nicolas Millan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styling -->
+    <title>Engine Replacement Compatibility</title>
+    <link rel="stylesheet" href="./CSS/styling.css">
+    <script src="./costum.js" defer></script>
+    <!-- Fonts -->
+</head>
+<body>
+    <section class="Creator">
+        <p id="Developer"></p>
+        <p id="StNumber"></p>
+        <Button id="creatorButton">Show Developer</Button>
+    </section>   
+    <section>
+        <h1>Step #1</h1>
+        <p>Let’s find an API that we can use. For this piece, I will use Jokes API by API-Ninjas, 
+            but you can use any API you like. The API I have selected is a free one, so you do not
+            need to subscribe to it. However, you will need your RapidAPI key. So go ahead and save 
+            the value of x-rapidapi-key to use later.</p>
+
+        <h1>Step #2</h1>
+        <p>Create a directory on your computer and open it in your preferred code editor. Once you are done, 
+            create an HTML file called index.html inside this directory. Now write a basic HTML boilerplate. 
+            I have also provided it below that you can copy and paste.
+        </p>
+        <img src="./IMG/img1.png" alt="ImageOne">
+
+        <h1>Step #3</h1>
+        <p>RapidAPI Hub provides you with code snippets in different languages for integrating the API. 
+            Since we are learning how to use APIs in JavaScript from RapidAPI Hub, let’s go (JavaScript) 
+            fetch code snippet since fetch is a web API used for calling REST APIs.
+        </p>
+        <img src="./IMG/img2.png" alt="ImageTwo">
+
+        <h1>Step #4</h1>
+        <p>Now paste the code snippet inside the script tag.</p>
+        <img src="./IMG/img3.png" alt="ImageThree">
+
+        <h1>Step #5</h1>
+        <p>Replace the your-rapidapi-key with the API key you saved earlier. Once you are done, run this 
+            file and open your console. You will see that the fetch API has called the Jokes API and after 
+            receiving the response, logged it in the console.Here is a demo of how you can call APIs from 
+            RapidAPI Hub in JavaScript:
+        </p>
+        <img src="./IMG/img4.png" alt="ImageFour">
+
+    </section> 
+    <section>
+        <h2>Car Specifications by Vin Number</h2>
+        <p>E.g.: Copy and paste the following vin number in order to try the application: 1GTG6CEN0L1139305</p>
+        <input type="text" id="vinNumber">
+        <button id="finalButton">Search</button>
+
+        <div class="carcategory">
+            <div>
+                <p>Year: </p>
+                <p id="carYear"></p>
+            </div><div>
+                <p>Make: </p>
+                <p id="carMake"></p>
+            </div><div>
+                <p>Trim: </p>
+                <p id="carTrim"></p>
+            </div>
+        </div>
+        <div class="carspecifications">
+            <div>
+                <p>Manufacture: </p>
+                <p id="carManufacture"></p>
+            </div><div>
+                <p>Plant Country: </p>
+                <p id="carPlantCountry"></p>
+            </div><div>
+                <p>Plant State/City: </p>
+                <p id="carPlantState"></p>
+            </div><div>
+                <p>Engine Configuration: </p>
+                <p id="carEngineConfiguration"></p>
+            </div><div>
+                <p>Number Cylinders: </p>
+                <p id="carNumberCylinders"></p>
+            </div><div>
+                <p>Power: </p>
+                <p id="carPowerKm"></p>
+            </div><div>
+                <p>Stroke Cycles: </p>
+                <p id="carStrokeCycles"></p>
+            </div><div>
+                <p>Valve Train Design: </p>
+                <p id="carValveTrainDesign"></p>
+            </div>
+        </div>
+    </section>
+</body>
+<footer>
+</footer>
+</html>

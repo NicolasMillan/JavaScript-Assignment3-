@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, h1, h2, p, button, input {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/*==========  Body Styles ==========*/
+footer , body{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+/* Creator styles */
+.Creator {
+    text-align: center;
+}
+#creatorButton {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+/* Instructions Api Styling */
+body section:nth-child(2){
+    background-color: #575757;
+    border: solid 1px #4CAF50;
+    text-align: center;
+    margin: 2% 10%;
+}
+body section:nth-child(2) p{
+    /* background-color: red; */
+    padding: 1% 20%;
+}
+
+
+/* ====== Api Styling ====== */
+
+section:nth-child(3){
+    background-color: #575757;
+    border: solid 1px #4CAF50;
+    text-align: center;
+    padding: 1%;
+}
+#vinNumber, #finalButton {
+    margin: 10px 0;
+    padding: 10px;
+}
+/* Car category and specifications styles */
+.carcategory, .carspecifications {
+    margin-top: 20px;
+    display: grid; 
+    grid-column: 2;
+    grid-row: auto;   
+
+}
+.carspecifications div, .carcategory div{
+    display: flex;
+    margin: 0 5%;
+}
+
+.carcategory p, .carspecifications p {
+    margin: 5px;
+}
+#finalButton {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/*======== Footer styles =========*/
+
+
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    body {
+        font-size: 14px;
+    }
+
+    #vinNumber, #finalButton {
+        width: 100%;
+    }
+}
